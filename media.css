@@ -1,0 +1,6 @@
+/* 1440px */
+@media (min-width: 90rem) {
+    body {
+        background-color: #000;
+    }
+}
