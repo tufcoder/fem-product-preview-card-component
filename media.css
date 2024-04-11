@@ -1,13 +1,17 @@
 /* 1440px */
 @media (min-width: 90rem) {
     .main {
-        /* 600px */
-        max-width: 37.5rem;
+        /* 640px */
+        max-width: 40rem;
         padding: 0;
     }
 
     .container {
         flex-direction: row;
+    }
+
+    .illustration {
+        width: 50%;
     }
 
     .illustration .img-mobile {
@@ -16,14 +20,11 @@
 
     .illustration .img-desktop {
         display: block;
+        object-fit: cover;
     }
 
     .content {
-        /* 600px */
-        width: 37.5rem;
-    }
-
-    .content {
+        width: 50%;
         gap: 2rem;
         padding: 2.5rem;
     }
