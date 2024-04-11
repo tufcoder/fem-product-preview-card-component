@@ -55,8 +55,12 @@ button {
     overflow: hidden;
 }
 
-.illustration img {
-    display: block;
+.illustration {
+    display: flex;
+}
+
+.illustration .img-desktop {
+    display: none;
 }
 
 .content {
@@ -116,6 +120,7 @@ button {
     padding: 1rem;
     font-weight: 700;
     color: var(--white);
+    cursor: pointer;
     background-color: var(--darkCyan);
 }
 

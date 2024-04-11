@@ -1,6 +1,33 @@
 /* 1440px */
 @media (min-width: 90rem) {
-    body {
-        background-color: #000;
+    .main {
+        max-width: 50rem;
+        padding: 0;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+
+    .illustration .img-mobile {
+        display: none;
+    }
+
+    .illustration .img-desktop {
+        display: block;
+    }
+
+    .illustration,
+    .content {
+        width: 37.5rem;
+    }
+
+    .content {
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .button-add-cart:hover {
+        opacity: .8;
     }
 }
