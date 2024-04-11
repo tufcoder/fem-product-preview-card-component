@@ -1,6 +1,5 @@
 /* 1440px */
-/* @media (min-width: 90rem) { */
-@media (min-width: 900px) {
+@media (min-width: 90rem) {
     .main {
         /* 600px */
         max-width: 37.5rem;
