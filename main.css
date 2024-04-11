@@ -41,6 +41,7 @@ img {
 button {
     font-weight: inherit;
     font-family: inherit;
+    cursor: pointer;
 }
 
 .main {
@@ -125,7 +126,6 @@ button {
     padding: 1rem;
     font-weight: 700;
     color: var(--white);
-    cursor: pointer;
     background-color: var(--darkCyan);
 }
 

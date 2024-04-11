@@ -29,6 +29,10 @@
         padding: 2.5rem;
     }
 
+    .button-add-cart {
+        transition: opacity .2s ease;
+    }
+
     .button-add-cart:hover {
         opacity: .8;
     }
